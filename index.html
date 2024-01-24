@@ -91,10 +91,10 @@
 
         <!-- carousel -->
 
-        <div class="carousel w-full mt-8 rounded-2xl h-[250px] sm:h-[360px] lg:h-[550px]">
+        <div class="relative carousel w-full mt-8 rounded-2xl h-[250px] sm:h-[360px] lg:h-[550px]">
             <div id="slide1" class="carousel-item relative w-full">
                 <img src="Images/1.png" class="w-full object-cover" />
-                <div class="absolute flex gap-5 left-5 bottom-5">
+                <div class="absolute flex gap-5 md:left-5 bottom-5 justify-center max-w-[20%] mx-[40%] md:mx-0 md:max-w-none">
                     <a href="#slide4" class="btn btn-circle bg-black border-none"><svg
                             xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                             <path d="M15.75 19.5L8.25 12L15.75 4.5" stroke="white" stroke-width="2"
@@ -105,11 +105,15 @@
                             <path d="M8.25 4.5L15.75 12L8.25 19.5" stroke="white" stroke-width="2"
                                 stroke-linecap="round" stroke-linejoin="round" />
                         </svg></a>
+                </div>
+                <div class="absolute hidden md:flex flex-col bg-black text-white p-4 rounded-2xl mt-4 md:max-w-[25rem] right-[4%] bottom-[5%]">
+                    <h2 class="text-lg font-extrabold pb-2">Meet all the heroes from the field</h2>
+                    <p class="text-sm text-[#FFFFFF99] font-medium leading-6">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
                 </div>
             </div>
             <div id="slide2" class="carousel-item relative w-full">
                 <img src="Images/2.png" class="w-full object-cover" />
-                <div class="absolute flex gap-5 left-5 bottom-5">
+                <div class="absolute flex gap-5 md:left-5 bottom-5 justify-center max-w-[20%] mx-[40%] md:mx-0 md:max-w-none">
                     <a href="#slide1" class="btn btn-circle bg-black border-none"><svg
                             xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                             <path d="M15.75 19.5L8.25 12L15.75 4.5" stroke="white" stroke-width="2"
@@ -121,10 +125,14 @@
                                 stroke-linecap="round" stroke-linejoin="round" />
                         </svg></a>
                 </div>
+                <div class="absolute hidden md:flex flex-col bg-black text-white p-4 rounded-2xl mt-4 md:max-w-[25rem] right-[4%] bottom-[5%]">
+                    <h2 class="text-lg font-extrabold pb-2">Meet all the heroes from the field</h2>
+                    <p class="text-sm text-[#FFFFFF99] font-medium leading-6">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                </div>
             </div>
             <div id="slide3" class="carousel-item relative w-full">
                 <img src="Images/3.png" class="w-full object-cover" />
-                <div class="absolute flex gap-5 left-5 bottom-5">
+                <div class="absolute flex gap-5 md:left-5 bottom-5 justify-center max-w-[20%] mx-[40%] md:mx-0 md:max-w-none">
                     <a href="#slide2" class="btn btn-circle bg-black border-none"><svg
                             xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                             <path d="M15.75 19.5L8.25 12L15.75 4.5" stroke="white" stroke-width="2"
@@ -136,10 +144,14 @@
                                 stroke-linecap="round" stroke-linejoin="round" />
                         </svg></a>
                 </div>
+                <div class="absolute hidden md:flex flex-col bg-black text-white p-4 rounded-2xl mt-4 md:max-w-[25rem] right-[4%] bottom-[5%]">
+                    <h2 class="text-lg font-extrabold pb-2">Meet all the heroes from the field</h2>
+                    <p class="text-sm text-[#FFFFFF99] font-medium leading-6">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                </div>
             </div>
             <div id="slide4" class="carousel-item relative w-full">
                 <img src="Images/4.png" class="w-full object-cover" />
-                <div class="absolute flex gap-5 left-5 bottom-5">
+                <div class="absolute flex gap-5 md:left-5 bottom-5 justify-center max-w-[20%] mx-[40%] md:mx-0 md:max-w-none">
                     <a href="#slide3" class="btn btn-circle bg-black border-none"><svg
                             xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                             <path d="M15.75 19.5L8.25 12L15.75 4.5" stroke="white" stroke-width="2"
@@ -151,7 +163,15 @@
                                 stroke-linecap="round" stroke-linejoin="round" />
                         </svg></a>
                 </div>
+                <div class="absolute hidden md:flex flex-col bg-black text-white p-4 rounded-2xl mt-4 md:max-w-[25rem] right-[4%] bottom-[5%]">
+                    <h2 class="text-lg font-extrabold pb-2">Meet all the heroes from the field</h2>
+                    <p class="text-sm text-[#FFFFFF99] font-medium leading-6">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                </div>
             </div>
+        </div>
+        <div class="md:hidden bg-black text-white p-4 rounded-2xl mt-4">
+            <h2 class="text-lg font-extrabold pb-2">Meet all the heroes from the field</h2>
+            <p class="text-sm text-[#FFFFFF99] font-medium leading-6">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
         </div>
     </header>
     <main class="w-4/5 mx-auto py-10 md:my-24">
@@ -200,8 +220,8 @@
                 <p class="max-w-[37.9375rem] mx-auto text-[#13131899] text-base font-medium leading-[1.625rem]">Embark on an extraordinary hockey journey with our diverse program sections, crafted to elevate players of all skill levels. Join us now!</p>
             </div>
             <div class="grid md:grid-cols-2 gap-6 mt-12">
-                <div class="card bg-base-100 image-full bg-[url('Images/2.png')] bg-cover lg:h-[21.125rem]">
-                    <div class="card-body text-white flex flex-col justify-end content-start">
+                <div class="rounded-2xl grid items-end bg-base-100 image-full bg-[url('Images/2.png')] bg-cover lg:h-[21.125rem]">
+                    <div class="h-full p-8 bg-[#13131880] rounded-2xl text-white flex flex-col justify-end content-start">
                         <h2 class="card-title text-[1.75rem] font-extrabold md:pt-10 lg:pt-0">Junior Program</h2>
                         <p class="flex-none max-w-[32.5rem] text-base font-medium leading-[1.625rem] mt-4 mb-6">Nurture young talents with specialized training, ensuring a solid foundation for future success. Join the excitement of our Junior Program today.</p>
 
@@ -211,8 +231,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="card bg-base-100 image-full bg-[url('Images/3.png')] bg-cover lg:h-[21.125rem]">
-                    <div class="card-body text-white flex flex-col justify-end content-start">
+                <div class="rounded-2xl grid items-end bg-base-100 image-full bg-[url('Images/3.png')] bg-cover lg:h-[21.125rem]">
+                    <div class="h-full p-8 bg-[#13131880] rounded-2xl text-white flex flex-col justify-end content-start">
                         <h2 class="card-title text-[1.75rem] font-extrabol md:pt-10 lg:pt-0">Teenager Program</h2>
                         <p class="flex-none max-w-[32.5rem] text-base font-medium leading-[1.625rem] mt-4 mb-6">Empower teenage players with advanced skills, strategic play, and character development. Elevate your game in our dynamic Teenager Program.</p>
 
@@ -223,8 +243,8 @@
                     </div>
                 </div>
                 <div
-                    class="card md:col-span-2 bg-base-100 image-full bg-[url('Images/4.png')] bg-cover  md:h-[21.875rem] lg:h-[28.125rem]">
-                    <div class="card-body text-white flex flex-col justify-end content-start">
+                    class="rounded-2xl grid items-end md:col-span-2 bg-base-100 image-full bg-[url('Images/4.png')] bg-cover  md:h-[21.875rem] lg:h-[28.125rem]">
+                    <div class="h-full p-8 bg-[#13131880] rounded-2xl text-white flex flex-col justify-end content-start">
                         <h2 class="card-title text-[1.75rem] font-extrabold">Professional Program</h2>
                         <p class="flex-none max-w-[32.5rem] text-base font-medium leading-[1.625rem] mt-4 mb-6">Elevate your game to the highest level with our Professional Program. Tailored for elite players, it hones skills and fosters a winning mentality.</p>
 
@@ -313,7 +333,7 @@
                         </div>
                         <h2 class="text-xl font-extrabold mt-3">Silverhill Fan Jacket</h2>
                         <p class="text-base text-[#13131899] font-medium leading[1.625rem] mt-3 mb-4">Stay warm in style, showcasing your loyalty to Silverhill's hockey.</p>
-                        <div class="flex gap-5">
+                        <div class="flex flex-col sm:flex-row gap-4">
                             <p class="text-lg text-hockey-primary font-extrabold">Price - $22.00</p>
                             <div class="flex gap-2">
                                 <div>
@@ -416,7 +436,7 @@
                         </div>
                         <h2 class="text-xl font-extrabold mt-3">Green Eagle Football</h2>
                         <p class="text-base text-[#13131899] font-medium leading[1.625rem] mt-3 mb-4">Kick off your game with precision using the Green Eagle.</p>
-                        <div class="flex gap-5">
+                        <div class="flex flex-col sm:flex-row gap-4">
                             <p class="text-lg text-hockey-primary font-extrabold">Price - $22.00</p>
                             <div class="flex gap-2">
                                 <div>
@@ -519,7 +539,7 @@
                         </div>
                         <h2 class="text-xl font-extrabold mt-3">Manchester Fan Cap</h2>
                         <p class="text-base text-[#13131899] font-medium leading[1.625rem] mt-3 mb-4">Support Manchester with flair in this trendy, fan-favorite cap.</p>
-                        <div class="flex gap-5">
+                        <div class="flex flex-col sm:flex-row gap-4">
                             <p class="text-lg text-hockey-primary font-extrabold">Price - $22.00</p>
                             <div class="flex gap-2">
                                 <div>
@@ -622,7 +642,7 @@
                         </div>
                         <h2 class="text-xl font-extrabold mt-3">Blue Wolf Jersey</h2>
                         <p class="text-base text-[#13131899] font-medium leading[1.625rem] mt-3 mb-4">Unleash your inner wolf spirit in the striking Blue Jersey.</p>
-                        <div class="flex gap-5">
+                        <div class="flex flex-col sm:flex-row gap-4">
                             <p class="text-lg text-hockey-primary font-extrabold">Price - $22.00</p>
                             <div class="flex gap-2">
                                 <div>
@@ -725,7 +745,7 @@
                         </div>
                         <h2 class="text-xl font-extrabold mt-3">Sapphire Helmet</h2>
                         <p class="text-base text-[#13131899] font-medium leading[1.625rem] mt-3 mb-4">Safety meets style with the Sapphire Helmet for confident gameplay.</p>
-                        <div class="flex gap-5">
+                        <div class="flex flex-col sm:flex-row gap-4">
                             <p class="text-lg text-hockey-primary font-extrabold">Price - $22.00</p>
                             <div class="flex gap-2">
                                 <div>
@@ -828,7 +848,7 @@
                         </div>
                         <h2 class="text-xl font-extrabold mt-3">World Cup Flags Football</h2>
                         <p class="text-base text-[#13131899] font-medium leading[1.625rem] mt-3 mb-4">Kick your game up a notch with the World Cup Football, representing global unity.</p>
-                        <div class="flex gap-5">
+                        <div class="flex flex-col sm:flex-row gap-4">
                             <p class="text-lg text-hockey-primary font-extrabold">Price - $22.00</p>
                             <div class="flex gap-2">
                                 <div>
